@@ -7,7 +7,7 @@ describe('movies page', () => {
     cy.visit('').inputMovieSearch('some none existing movie').expectToSeeMovieListNotFound();
   });
 
-  it.only('should show show next page when clicking next page', () => {
+  it('should show show next page when clicking next page', () => {
     cy.visit('').expectPaginationNumber('1').expectMovieListToHaveItems().clickOnNextPage().expectPaginationNumber('2');
   });
 });

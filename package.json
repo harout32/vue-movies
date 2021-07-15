@@ -65,13 +65,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**/*.{ts,vue}": "eslint --fix",
-    "cypress/**/*.js": "eslint --fix",
+    "cypress/**/*.ts": "eslint --fix",
     "src": "jest src --all"
   },
   "msw": {
