@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesPage should call getMovies when changing genre filters 1`] = `
+Array [
+  Array [
+    Object {
+      "pageIndex": 0,
+      "perPage": 6,
+    },
+  ],
+  Array [
+    Object {
+      "filters": Object {
+        "genre": Array [
+          3,
+        ],
+        "showType": Array [],
+      },
+      "pageIndex": 0,
+      "perPage": 6,
+      "search": "",
+    },
+  ],
+]
+`;
+
+exports[`MoviesPage should call getMovies when changing input value 1`] = `
+Array [
+  Array [
+    Object {
+      "pageIndex": 0,
+      "perPage": 6,
+    },
+  ],
+  Array [
+    Object {
+      "filters": Object {
+        "genre": Array [],
+        "showType": Array [],
+      },
+      "pageIndex": 0,
+      "perPage": 6,
+      "search": "something",
+    },
+  ],
+]
+`;
+
+exports[`MoviesPage should call getMovies when changing type filters 1`] = `
+Array [
+  Array [
+    Object {
+      "pageIndex": 0,
+      "perPage": 6,
+    },
+  ],
+  Array [
+    Object {
+      "filters": Object {
+        "genre": Array [],
+        "showType": Array [
+          0,
+        ],
+      },
+      "pageIndex": 0,
+      "perPage": 6,
+      "search": "",
+    },
+  ],
+]
+`;
+
+exports[`MoviesPage should call getMovies when clicking on next page 1`] = `
+Array [
+  Array [
+    Object {
+      "pageIndex": 0,
+      "perPage": 6,
+    },
+  ],
+]
+`;

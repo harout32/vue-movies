@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useMovies should call getMovies when calling fetchMovies 1`] = `
+Array [
+  Array [
+    Object {
+      "pageIndex": 0,
+      "perPage": 10,
+    },
+  ],
+  Array [
+    Object {
+      "filters": Object {
+        "genre": Array [
+          1,
+        ],
+        "showType": Array [
+          0,
+        ],
+      },
+      "pageIndex": 1,
+      "perPage": 10,
+      "search": "some search",
+    },
+  ],
+]
+`;

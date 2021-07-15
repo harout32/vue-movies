@@ -1,0 +1,240 @@
+[
+  {
+    "id": 163979287265942016,
+    "title": "An American Tail: Fievel Goes West",
+    "genre": [
+      {
+        "id": 3,
+        "title": "Comedy"
+      },
+      {
+        "id": 8,
+        "title": "Western"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163978496991957504,
+        "name": "Fievel Mousekewitz"
+      },
+      {
+        "id": 163978647315813376,
+        "name": "Tanya MouseKewitz"
+      }
+    ],
+    "is_series": true,
+    "release_date": "1991-11-17T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357888,
+    "title": "The Notebook",
+    "genre": [
+      {
+        "id": 2,
+        "title": "Drama"
+      },
+      {
+        "id": 6,
+        "title": "Romance"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982182073900544,
+        "name": "Ryan Gosling"
+      },
+      {
+        "id": 163982199253770240,
+        "name": "Rachel McAdams"
+      }
+    ],
+    "is_series": false,
+    "release_date": "2004-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357100,
+    "title": "The Shawshank Redemption",
+    "genre": [
+      {
+        "id": 2,
+        "title": "Drama"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770333,
+        "name": "Morgan Freeman"
+      },
+      {
+        "id": 163982199253770113,
+        "name": "Tim Robbins"
+      }
+    ],
+    "is_series": false,
+    "release_date": "1994-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357101,
+    "title": "Forrest Gump",
+    "genre": [
+      {
+        "id": 2,
+        "title": "Drama"
+      },
+      {
+        "id": 6,
+        "title": "Romance"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770334,
+        "name": "Tom Hanks"
+      }
+    ],
+    "is_series": false,
+    "release_date": "1994-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357102,
+    "title": "Fight Club",
+    "genre": [
+      {
+        "id": 2,
+        "title": "Drama"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770335,
+        "name": "Brat Pitt"
+      },
+      {
+        "id": 163982199253770336,
+        "name": "Edward Norton"
+      }
+    ],
+    "is_series": false,
+    "release_date": "1999-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357103,
+    "title": "Pulp Fiction",
+    "genre": [
+      {
+        "id": 2,
+        "title": "Drama"
+      },
+      {
+        "id": 10,
+        "title": "Crime"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770337,
+        "name": "John Travolta"
+      },
+      {
+        "id": 163982199253770338,
+        "name": "Bruce Willis"
+      },
+      {
+        "id": 163982199253770339,
+        "name": "Samuel L. Jackson"
+      }
+    ],
+    "is_series": false,
+    "release_date": "1994-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357104,
+    "title": "Inception",
+    "genre": [
+      {
+        "id": 11,
+        "title": "Action"
+      },
+      {
+        "id": 12,
+        "title": "Adventure"
+      },
+      {
+        "id": 13,
+        "title": "Sci-Fi"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770340,
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": 163982199253770341,
+        "name": "Tom Hardy"
+      }
+    ],
+    "is_series": false,
+    "release_date": "2010-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357105,
+    "title": "The Dark Knight",
+    "genre": [
+      {
+        "id": 11,
+        "title": "Action"
+      },
+      {
+        "id": 10,
+        "title": "Crime"
+      },
+      {
+        "id": 2,
+        "title": "Drama"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770342,
+        "name": "Christian Bale"
+      },
+      {
+        "id": 163982199253770343,
+        "name": "Heath Ledger"
+      }
+    ],
+    "is_series": false,
+    "release_date": "2008-06-25T00:00:00.000000Z"
+  },
+  {
+    "id": 163982121944357106,
+    "title": "Interstellar",
+    "genre": [
+      {
+        "id": 12,
+        "title": "Adventure"
+      },
+      {
+        "id": 13,
+        "title": "Sci-Fi"
+      },
+      {
+        "id": 2,
+        "title": "Drama"
+      }
+    ],
+    "actors": [
+      {
+        "id": 163982199253770344,
+        "name": "Matthew McConaughey"
+      },
+      {
+        "id": 163982199253770345,
+        "name": "Anne Hathaway"
+      }
+    ],
+    "is_series": false,
+    "release_date": "2014-06-25T00:00:00.000000Z"
+  }
+]
