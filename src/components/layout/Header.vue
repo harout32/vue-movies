@@ -13,6 +13,7 @@ export default defineComponent({
   components: {
     TogglerButton,
   },
+  // here is dummy comment
   setup: () => {
     const toggleDarkMode = inject<() => void>('setDarkMode') || (() => {});
     const isDarkMode = inject<boolean>('isDarkMode');
