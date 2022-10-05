@@ -1,4 +1,4 @@
-# Movies Query Project
+# [Movies Query Project](https://harout32.github.io/vue-movies/)
 
 This is a simple movie query project using [vue 3](https://v3.vuejs.org/) + [vitejs](https://vitejs.dev/) + [Typescript](https://www.typescriptlang.org/)
 

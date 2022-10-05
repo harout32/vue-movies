@@ -3,7 +3,7 @@ import allMovies from './movies.json';
 import { Movie, MoviesQuery } from '../../types';
 import { ShowTypeEnum } from '../../statics';
 export default [
-  rest.post('/api/movies', (req, res, ctx) => {
+  rest.post('**/api/movies', (req, res, ctx) => {
     const { filters, search, perPage = 1, pageIndex = 0 } = req.body as MoviesQuery;
     let filteredMovies: Movie[] = allMovies;
     if (filters ?? search) {

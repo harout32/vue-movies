@@ -3,6 +3,16 @@ import App from './App.vue';
 import { worker } from './mocks/api/browsers';
 import './App.css';
 
-worker.start() as Promise<void>;
+const prepare = async () => {
+  await worker.start({
+    serviceWorker: {
+      url: '/vue-movies/mockServiceWorker.js',
+    },
+  });
+};
 
-createApp(App).mount('#app');
+prepare()
+  .then(() => {
+    createApp(App).mount('#app');
+  })
+  .catch(console.log);
